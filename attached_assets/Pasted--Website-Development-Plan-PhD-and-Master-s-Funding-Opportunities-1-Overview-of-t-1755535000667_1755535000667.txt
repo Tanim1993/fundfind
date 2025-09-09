@@ -1,0 +1,173 @@
+### Website Development Plan: PhD and Master's Funding Opportunities
+
+---
+
+#### 1. Overview of the Website's Purpose
+
+The purpose of this website is to provide a comprehensive platform for users to explore and apply for the latest funding opportunities, scholarships, and fellowships for PhD and Master's programs in the USA. The website will focus exclusively on funding-related content, ensuring that users can easily find the most relevant and up-to-date funding options tailored to their academic interests.
+
+---
+
+#### 2. Feature Descriptions
+
+##### Latest Funding Posts
+
+* **Description**: This section will display the latest funding posts for PhD and Master's programs in the USA, organized by date. It will include details such as the scholarship name, application deadline, eligibility criteria, and a brief description of the funding opportunity.
+
+* **Example of Funding Post Listing**:
+
+  ```
+  Title: Fulbright Scholarship for International Students
+  Date: August 25, 2025
+  Eligibility: Open to international students pursuing Master's or PhD in any field
+  Deadline: September 30, 2025
+  Description: Fully-funded scholarship for international students to study at US universities. Covers tuition, living expenses, and airfare.
+  [Apply Now](link)
+  ```
+
+* **Sorting Feature**: The posts will be sorted chronologically, and users can filter funding opportunities based on the most recent ones or specific fields of study.
+
+* **Use Case**: Users can stay informed about the latest funding opportunities as soon as they are posted, ensuring timely applications.
+
+##### Auto-Mail Template Feature
+
+* **Description**: This feature will allow users to subscribe to email notifications for new funding opportunities based on their interests (e.g., PhD in Computer Science, Master's in Engineering). When a new post matches their preferences, the system will send an auto-generated email alerting them to the opportunity.
+
+* **Example of Auto-Mail Notification**:
+
+  ```
+  Subject: New Funding Opportunity: Fulbright Scholarship for International Students
+  Dear [User],
+  A new funding opportunity has been posted that matches your interests. The Fulbright Scholarship is available for international students pursuing Master's or PhD programs in the USA.
+
+  Application Deadline: September 30, 2025
+  Apply Now: [Link]
+
+  Regards,
+  The Funding Opportunities Team
+  ```
+
+* **Use Case**: Users will not miss any important funding opportunities as they will receive automatic email notifications directly to their inbox based on their preferences.
+
+##### Subject-wise Funding Scholarships
+
+* **Description**: This section will categorize funding opportunities by academic subject, making it easier for users to find scholarships that align with their field of study. Categories may include:
+
+  * Engineering
+  * Computer Science
+  * Humanities
+  * Social Sciences
+  * Business & Economics
+  * Health & Medicine
+
+* **Example of Subject-wise Funding Listing**:
+
+  ```
+  Computer Science:
+  - PhD in AI Research Scholarship (Deadline: October 15, 2025)
+  - Master's Program in Data Science Scholarship (Deadline: November 5, 2025)
+
+  Engineering:
+  - PhD in Electrical Engineering Fellowship (Deadline: September 30, 2025)
+  - Master's Program in Civil Engineering Grant (Deadline: October 31, 2025)
+  ```
+
+* **Use Case**: Users can filter funding opportunities by subject, ensuring they find the most relevant scholarships for their area of study.
+
+---
+
+#### 3. Technical Specifications
+
+##### Suggested Technologies and Tools to be Used on Replit:
+
+* **Frontend**:
+
+  * **HTML5**: For structuring the web pages.
+  * **CSS3**: For styling the website, ensuring a formal and user-friendly layout.
+  * **JavaScript**: For dynamic functionality, such as filtering posts by date or subject and auto-mail template generation.
+
+* **Backend**:
+
+  * **Node.js**: For handling backend functionality such as fetching the latest funding posts from a database, sending email notifications, and managing user subscriptions.
+  * **Express.js**: A lightweight framework to handle routing and server-side logic.
+
+* **Database**:
+
+  * **MongoDB**: For storing funding posts and user subscriptions, allowing flexible categorization and easy updates to the database as new opportunities arise.
+
+* **Email Automation**:
+
+  * **Nodemailer**: To send auto-generated email notifications to users when a new funding opportunity is posted that matches their preferences.
+
+* **Hosting and Deployment**:
+
+  * **Replit**: The full stack can be hosted and run on Replit, which provides a platform for both frontend and backend development.
+
+---
+
+#### 4. User Interface Recommendations
+
+##### Layout and Design Suggestions:
+
+* **Header**: Clear navigation with links to the main sections: Home, Latest Funding, Subscribe for Updates, Subject-wise Scholarships.
+
+* **Home Page**:
+
+  * A search bar for filtering funding posts by keywords.
+  * A featured section displaying top funding opportunities.
+  * A "Recent Posts" section showcasing the latest funding posts, sorted by date.
+
+* **Funding Post Section**:
+
+  * A clean, organized layout for each funding post with key details: Title, Eligibility, Deadline, Description, and a link to apply.
+
+* **Subject-wise Funding Section**:
+
+  * A sidebar or dropdown menu that allows users to select their academic subject and view relevant funding opportunities.
+
+* **Subscription Page**:
+
+  * A form where users can enter their academic interests and email address to subscribe to notifications.
+  * Clear information about what kind of funding updates they will receive.
+
+* **Footer**:
+
+  * Contact information, terms and conditions, and privacy policy.
+
+---
+
+#### 5. Steps to Implementation
+
+##### Step 1: Set Up Replit Project
+
+* Create a new full-stack project on Replit.
+* Initialize a Node.js project with Express.js.
+
+##### Step 2: Design the Frontend
+
+* Write HTML to structure the website.
+* Use CSS to style the layout and ensure a professional, clean design.
+* Implement JavaScript to enable interactive features (search bar, filtering options).
+
+##### Step 3: Implement the Backend
+
+* Set up MongoDB to store funding posts and user subscriptions.
+* Use Express.js to handle routing for the homepage, funding posts, and subscription management.
+
+##### Step 4: Email Automation Setup
+
+* Implement Nodemailer to send email notifications to users based on their subscription preferences.
+* Design an email template for sending funding updates.
+
+##### Step 5: Testing and Debugging
+
+* Test the functionality of each feature: latest posts, subject-wise categorization, and auto-mail notifications.
+* Debug any issues related to email delivery and dynamic content filtering.
+
+##### Step 6: Deploy the Website
+
+* Deploy the project on Replit and ensure everything is fully functional.
+
+---
+
+This plan offers a clear roadmap for building a user-friendly and functional website to display the latest PhD and Master's funding opportunities. Let me know if you'd like further customization or additional features!
